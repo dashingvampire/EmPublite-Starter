@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView android:text="@string/name"/>
+        <EditText
+            android:inputType="text"
+            android:layout_span="3"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/home_planet"/>
+        <EditText
+            android:inputType="text"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow android:background="#00a500">
+        <CheckBox
+            android:layout_column="1"
+            android:text="@string/are_you_a_programmer" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/favourite_food"/>
+        <EditText android:inputType="text"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/name"/>
+        <TextView android:text="@string/name"/>
+    </TableRow>
+
+    <Button android:text="@string/do_something_with_this_data"/>
+
+</TableLayout>
