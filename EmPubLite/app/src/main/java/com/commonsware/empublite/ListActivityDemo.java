@@ -25,7 +25,6 @@ public class ListActivityDemo extends ListActivity {
         setContentView(R.layout.activity_list_demo);
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items));
         selection=(TextView)findViewById(R.id.selection);
-
     }
     @Override
     public void onListItemClick(ListView parent, View v, int position, long id) {

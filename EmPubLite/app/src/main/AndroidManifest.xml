@@ -16,6 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
+        <activity android:name=".TestActivity"
+            android:label="@string/listactivitydemo"
+            android:parentActivityName=".EmPubLiteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EmPubLiteActivity" />
+        </activity>
+        <activity
+            android:name=".ListActivityDemo"
+            android:label="@string/listactivitydemo"
+            android:parentActivityName=".EmPubLiteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EmPubLiteActivity" />
+        </activity>
         <activity android:name=".EmPubLiteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

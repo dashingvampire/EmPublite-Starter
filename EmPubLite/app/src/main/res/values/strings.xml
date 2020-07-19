@@ -19,6 +19,7 @@
     <string name="name2">Name :</string>
     <string name="do_something_with_this_data">Do something With This Data</string>
     <string name="favourite_food">Favourite Food :</string>
-    <string name="ok">ok</string>
+    <string name="ok">OK</string>
+    <string name="listactivitydemo">listactivitydemo</string>
 </resources>
 
