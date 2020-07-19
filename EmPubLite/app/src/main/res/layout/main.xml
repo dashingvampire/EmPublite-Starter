@@ -4,54 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="10dp"
     tools:context="com.commonsware.empublite.EmPubLiteActivity"
     android:orientation="vertical">
 
   <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Hello World!" />
-
-  <TextView
-      android:id="@+id/yahoo"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/this_is_a_text"
-      android:textSize="20sp" />
-
-  <TextView
-      android:id="@+id/textView"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/dummy_text"
-      android:textSize="30sp" />
-
-  <ImageView
-      android:id="@+id/imageView2"
-      android:layout_width="match_parent"
-      android:layout_height="201dp"
-      android:contentDescription="@string/todo"
-      android:src="@mipmap/ic_launcher" />
-
-  <EditText
-      android:id="@+id/editTextTextPersonName"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:ems="10"
-      android:inputType="textMultiLine"
-      android:autofillHints="tinytext"
-      android:hint="@string/this_is_multi_line" />
+      android:text="@string/android_practice"
+      android:textSize="30sp"
+      android:gravity="center_horizontal"
+      android:textColor="@color/whiteColor"
+      android:background="@color/colorPrimaryDark"/>
 
-  <Button
-      android:id="@+id/button"
+  <RelativeLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:padding="19dp"
-      android:text="@string/button"
-      android:onClick="onClickButton"/>
+      android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton0"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_toEndOf="@id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton1"
+        android:layout_toRightOf="@id/button0" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_toRightOf="@id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton2"
+        android:layout_toEndOf="@id/button1" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_toEndOf="@id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton3"
+        android:layout_toRightOf="@id/button2" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_below="@id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton4"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_toRightOf="@id/button4"
+        android:layout_below="@id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ListView"
+        android:onClick="onClickButton5"
+        android:layout_toEndOf="@id/button4" />
+  </RelativeLayout>
 
 </LinearLayout>

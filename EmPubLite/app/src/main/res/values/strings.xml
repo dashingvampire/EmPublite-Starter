@@ -2,7 +2,7 @@
     <string name="app_name">EmPub Lite</string>
     <string name="this_is_a_text">this is a text</string>
     <string name="dummy_text">TextView</string>
-    <string name="button">Button</string>
+    <string name="ListView">List View</string>
     <string name="todo">TODO</string>
     <string name="name">Name</string>
     <string name="this_is_multi_line">this is multi line</string>
@@ -21,5 +21,6 @@
     <string name="favourite_food">Favourite Food :</string>
     <string name="ok">OK</string>
     <string name="listactivitydemo">listactivitydemo</string>
+    <string name="android_practice">Android Practice !</string>
 </resources>
 

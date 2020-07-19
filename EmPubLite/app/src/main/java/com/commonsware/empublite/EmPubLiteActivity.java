@@ -13,8 +13,23 @@ public class EmPubLiteActivity extends Activity {
     setContentView(R.layout.main);
   }
 
-  public void onClickButton(View view) {
+  public void onClickButton0(View view) {
     Intent intent = new Intent(EmPubLiteActivity.this, ListActivityDemo.class);
     startActivity(intent);
+  }
+
+  public void onClickButton1(View view) {
+  }
+
+  public void onClickButton2(View view) {
+  }
+
+  public void onClickButton3(View view) {
+  }
+
+  public void onClickButton4(View view) {
+  }
+
+  public void onClickButton5(View view) {
   }
 }

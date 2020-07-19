@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity android:name=".TestActivity"
-            android:label="@string/listactivitydemo"
+            android:label="Test activity"
             android:parentActivityName=".EmPubLiteActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
