@@ -32,7 +32,7 @@
         android:layout_toEndOf="@id/button0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ListView"
+        android:text="Form_TL"
         android:onClick="onClickButton1"
         android:layout_toRightOf="@id/button0" />
     <Button
