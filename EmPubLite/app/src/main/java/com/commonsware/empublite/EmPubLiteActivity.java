@@ -13,6 +13,6 @@ public class EmPubLiteActivity extends Activity {
   }
 
   public void onClickButton(View view) {
-    // do something useful heresc
+    // do something useful here
   }
 }
