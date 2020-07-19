@@ -19,6 +19,7 @@ public class ListActivityDemo extends ListActivity {
             "etiam", "vel", "erat", "placerat", "ante",
             "porttitor", "sodales", "pellentesque", "augue", "purus"};
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
